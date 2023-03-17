@@ -1,4 +1,80 @@
-#navbar {
-  padding: 30px;
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
+body{
+  padding: 0;
+  margin: 0;
   
+}
+
+#navbar {
+  /* padding: 30px; */
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+#navbar a{
+  background-color: aliceblue;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  padding: 10px 40px;
+  font-size:30px;
+  margin: 0;
+}
+
+#navbar a:hover {
+  background-color: blanchedalmond;
+}
+
+#welcome-section{
+  height: 100vh;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#projects{
+  height: 50vh;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#profile-link{
+  text-decoration: none;
+  color: white;
+}
+
+.profile-link-container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.project-container{
+  display: flex;
+  gap: 30px;
+}
+
+.project-tile{
+  background-color: tomato;
+  width: 40%;
+  height: 300px;
+}
+
+.project-tile a{
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+
 }
